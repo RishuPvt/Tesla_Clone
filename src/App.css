@@ -1,0 +1,54 @@
+/* Components__/Header */
+.main {
+  background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Desktop-LHD-v2.jpg");
+}
+.model3heading {
+  font-size: xx-large;
+  font-family: sans-serif;
+}
+.model3subheading {
+  font-size: x-large;
+  font-family: sans-serif;
+}
+
+.btn {
+  font-family: sans-serif;
+  font-size: large;
+}
+
+/* Components__/ModelY */
+.ModelY {
+  background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-Global.png");
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Components__/ModelX */
+.ModelX {
+  background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-X-Desktop-v2.jpg");
+}
+
+/* Components__/ModelY */
+
+.ModelS {
+  background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Desktop-v2.jpg");
+}
+
+/* Components__/CyberTruck */
+
+.CyberTruck {
+  background-image: url("https://digitalassets.tesla.com/discovery-tesla-com/image/upload/f_auto,q_auto/Homepage-Cybertruck-Desktop.jpg");
+}
+
+/* Components__/Solarroof */
+
+.solarroof {
+  background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/h_1800,w_2880,c_fit,f_auto,q_auto:best/Homepage-SolarRoof-Desktop-Global");
+}
+
+/* Components__/SolarWall */
+
+.Solarwall {
+  background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Powerwall-01-Desktop.jpg");
+}
