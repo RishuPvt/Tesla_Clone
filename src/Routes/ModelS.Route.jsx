@@ -1,13 +1,14 @@
+
 import React from "react";
 import TeslaLogo from "../assets/LogoTesla.png";
 import { TfiWorld } from "react-icons/tfi";
 import { BiSupport } from "react-icons/bi";
 import { FaRegUser } from "react-icons/fa";
-import ModelX from "../assets/Screenshot.png";
-import bluemodelx from "../assets/bluemodelx.png";
-import redmodel3 from "../assets/redmodel3.png";
+import ModelSwhite from "../assets/ModelSwhite.png";
+import ModelSRed from "../assets/ModelSRed.png";
+import ModelXblue from "../assets/ModelXblue.png";
 import "../App.css";
-function Layout() {
+function ModelS() {
   return (
     <>
       <div className="head flex justify-center w-full">
@@ -24,40 +25,39 @@ function Layout() {
 
       <div className="w-full h-[740px] flex items-center justify-evenly">
         <div className="ordernow bg-cover w-[60%] ">
-          <img src={ModelX} alt="ModelX" />
+          <img src={ModelSwhite} alt="ModelS" />
         </div>
         <div className="Cardetails">
-          <h1 className="modelname">Model 3</h1>
+          <h1 className="modelname">Model S</h1>
           <div className="carfeatures">
             <h1>
               {" "}
-              363mL
+              402mL
               <span>Range (EPA est.)</span>
             </h1>
             <h1>
-              125mph
+              130mph
               <span>Top Speed</span>
             </h1>
             <h1>
-              4.9sec<span>0-60 mph</span>
+              3.1sec<span>0-60 mph</span>
             </h1>
           </div>
           <div className="aboutcar">
             <h2>
-              Include $7,500 Federal Tax Credit and est. 5-year gas savings of
-              $5,000. <span>Customize</span>
+            Include est. 5-year gas savings of $6,500,  est. gas savings of $108 /mo <span>Customize</span>
             </h2>
             <h2 className="typesofcar ">
-              Long Range All-Wheel Drive <span className="rates">$34,990</span>
+              Long Range All-Wheel Drive <span className="rates">$63,490</span>
             </h2>
             <h2 className="typesofcar">
-              Rear-Wheel Drive <span className="rates">$33,990</span>
+              Rear-Wheel Drive <span className="rates">$60,290</span>
             </h2>
             <h2 className="typesofcar">
-              Long Range Rear-Wheel Drive <span className="rates">$29,990</span>
+              Long Range Rear-Wheel Drive <span className="rates">$59,590</span>
             </h2>
             <h2 className="typesofcar">
-              Dual Motor All-Wheel Drive <span className="rates">$42,990</span>
+             Plaid <span className="rates">$83,950</span>
             </h2>
           </div>
           <button className="feature-btn1">Features details</button>
@@ -66,33 +66,30 @@ function Layout() {
 
       <div className="w-full h-[740px] flex items-center justify-evenly">
         <div className="ordernow bg-cover w-[60%] ">
-          <img src={bluemodelx} alt="ModelX" />
+          <img src={ModelSRed} alt="ModelX" />
         </div>
         <div className="Cardetails">
           <h1 className="self-driving">
             Full Self-Driving Capability <sup>$8,000</sup>
           </h1>
           <div className="car-color">
-            <h1 className="grey">
+            <h1 className="white">
               {" "}
-              Stealth Grey
-              <span>Included</span>
-            </h1>
-            <h1 className="blue">
-              Deep Blue Metallic
-              <span> $1,000</span>
+              Pearl White Multi-Coat 
+              <span>$2,500</span>
             </h1>
             <h1 className="red">
               Ultra Red
+              <span> $2,500</span>
+            </h1>
+            <h1 className="blue">
+               Deep Blue
               <span> $2,000</span>
             </h1>
           </div>
           <div className="aboutcar">
             <h2>
-              Receive a 30 day trial of Full Self-Driving Capability with a new
-              vehicle purchase. Your car will be able to drive itself almost
-              anywhere with minimal driver intervention and will continuously
-              improve
+            Receive a 30 day trial of Full Self-Driving Capability with a new vehicle purchase.
             </h2>
             <h2 className="typesofcar ">
               Navigate on Autopilot
@@ -129,13 +126,13 @@ function Layout() {
 
       <div className="box w-full h-[740px] flex items-center justify-evenly">
         <div className="ordernow bg-cover w-[60%] ">
-          <img src={redmodel3} alt="ModelX" />
+          <img src={ModelXblue} alt="ModelS" />
         </div>
         <div className="order-now">
-          <h1 className="self-driving">Order Your Model 3</h1>
+          <h1 className="self-driving">Order Your Model S</h1>
 
           <div className="delivery">
-            <h2>Est. Delivery: Aug – Sep 2024</h2>
+            <h2>Est. Delivery: Jul – Aug 2024</h2>
 
             <h2>
               Your design qualifies for a $7,500 federal tax credit for eligible
@@ -150,4 +147,4 @@ function Layout() {
   );
 }
 
-export default Layout;
+export default ModelS;

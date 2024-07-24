@@ -1,5 +1,6 @@
 import React from "react";
 import cybertrucklogo from "../assets/Cybertrucklogo.png";
+import { NavLink } from "react-router-dom";
 function CyberTruck() {
   return (
     <>
@@ -15,10 +16,11 @@ function CyberTruck() {
             </div>
           </div>
         </div>
-        <div className="btn-box items-center justify-center flex flex-col sm:flex-row gap-4 sm:gap-8">
-          <button className="btn font-medium hover:bg-gray-600 hover:text-black w-full sm:w-[250px] p-2 text-white bg-black">
-            Order Now
-          </button>
+        <div className="btn-box items-center justify-center flex flex-col sm:flex-row gap-4 sm:gap-8 text-center">
+        <NavLink to="/CyberTruck" className="btn font-medium hover:bg-gray-600 hover:text-black w-full sm:w-[250px] p-2 text-white bg-black">
+         Order Now
+         
+          </NavLink>
           <button className="btn font-medium hover:bg-black  w-full sm:w-[250px] p-2  bg-gray-800 text-white">
             Demo Drive
           </button>

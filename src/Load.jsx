@@ -4,6 +4,8 @@ import App from './App';
 import Layout from './Routes/Model3.Routes'; // Assuming Layout is another component for /page1
 import ModelY from './Routes/ModelY.Route';
 import ModelX from './Routes/ModelX.Route';
+import ModelS from './Routes/ModelS.Route';
+import CyberRoute from './Routes/CyberTruck.Route';
 const Load = () => (
   <Router>
     <Routes>
@@ -11,6 +13,8 @@ const Load = () => (
       <Route path="/Model3" element={<Layout />} />
       <Route path="/ModelY" element={<ModelY />} />
       <Route path="/ModelX" element={<ModelX />} />
+      <Route path="/ModelS" element={<ModelS />} />
+      <Route path="/CyberTruck" element={<CyberRoute />} />
 
     </Routes>
   </Router>

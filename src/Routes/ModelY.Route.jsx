@@ -31,7 +31,7 @@ function ModelY() {
           <div className="carfeatures">
             <h1>
               {" "}
-              320mi
+              320mL
               <span>Range (EPA est.)</span>
             </h1>
             <h1>
@@ -140,7 +140,7 @@ function ModelY() {
               <span> See Details</span>
             </h2>
           </div>
-          <button className="add-btn">Add</button>
+          <button className="add-btn">Order</button>
         </div>
       </div>
     </>

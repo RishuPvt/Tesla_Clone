@@ -32,33 +32,33 @@ function ModelX() {
           <div className="carfeatures">
             <h1>
               {" "}
-              320mi
+              335mL
               <span>Range (EPA est.)</span>
             </h1>
             <h1>
-              135mph
+              155mph
               <span>Top Speed</span>
             </h1>
             <h1>
-              6.5sec<span>0-60 mph</span>
+              3.9sec<span>0-60 mph</span>
             </h1>
           </div>
           <div className="aboutcar">
             <h2>
               Include $7,500 Federal Tax Credit and est. 5-year gas savings of
-              $5,000. <span>Customize</span>
+              $6,000. <span>Customize</span>
             </h2>
             <h2 className="typesofcar ">
-              Long Range All-Wheel Drive <span className="rates">$31,490</span>
+              Long Range All-Wheel Drive <span className="rates">$61,490</span>
             </h2>
             <h2 className="typesofcar">
-              Rear-Wheel Drive <span className="rates">$34,290</span>
+              Rear-Wheel Drive <span className="rates">$64,290</span>
             </h2>
             <h2 className="typesofcar">
-              Long Range Rear-Wheel Drive <span className="rates">$39,590</span>
+              Long Range Rear-Wheel Drive <span className="rates">$69,590</span>
             </h2>
             <h2 className="typesofcar">
-              Dual Motor All-Wheel Drive <span className="rates">$37,950</span>
+              Plaid<span className="rates">$87,950</span>
             </h2>
           </div>
           <button className="feature-btn1">Features details</button>
@@ -74,16 +74,16 @@ function ModelX() {
             Full Self-Driving Capability <sup>$8,000</sup>
           </h1>
           <div className="car-color">
-            <h1 className="grey">
+            <h1 className="white">
               {" "}
               White 
               <span>Included</span>
             </h1>
-            <h1 className="blue">
+            <h1 className="silver">
               Luna Silver
               <span> $1,000</span>
             </h1>
-            <h1 className="red">
+            <h1 className="blue">
                Deep Blue
               <span> $2,000</span>
             </h1>
@@ -141,7 +141,7 @@ function ModelX() {
               <span> See Details</span>
             </h2>
           </div>
-          <button className="add-btn">Add</button>
+          <button className="add-btn">Order</button>
         </div>
       </div>
     </>
