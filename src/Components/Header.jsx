@@ -3,6 +3,7 @@ import { TfiWorld } from "react-icons/tfi";
 import { BiSupport } from "react-icons/bi";
 import { FaRegUser } from "react-icons/fa";
 import TeslaLogo from "../assets/LogoTesla.png";
+import { NavLink } from "react-router-dom";
 import "../App.css";
 
 function Header() {
@@ -58,9 +59,11 @@ function Header() {
         </h1>
 
         <div className="btn-box items-center justify-center flex mt-[400px] gap-8">
-          <button className="btn font-medium hover:bg-gray-200 hover:text-black w-[250px] p-2 rounded-xl bg-white">
-            Order Now
-          </button>
+         <NavLink to="/Model3" className="btn font-medium hover:bg-gray-200 hover:text-black w-[250px] p-2 rounded-xl bg-white text-center">
+         Order Now
+         
+          </NavLink>
+          
           <button className="btn font-medium hover:bg-gray-600  w-[250px] p-2 rounded-xl bg-gray-800 text-white">
             Demo Drive
           </button>

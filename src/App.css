@@ -19,9 +19,6 @@
 /* Components__/ModelY */
 .ModelY {
   background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-Global.png");
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
 }
 
 /* Components__/ModelX */
@@ -51,4 +48,256 @@
 
 .Solarwall {
   background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Powerwall-01-Desktop.jpg");
+}
+
+/* Routes/OrderLayouts */
+
+.Cardetails {
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 20px;
+  margin-right: 15px;
+
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Cardetails:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.modelname {
+  font-family: sans-serif;
+  font-size: xx-large;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.carfeatures {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.carfeatures h1 {
+  font-size: x-large;
+  color: #555;
+  text-align: center;
+  transition: color 0.3s ease;
+  font-weight: 600;
+}
+
+.carfeatures span {
+  display: block;
+  font-size: medium;
+  color: #888;
+  text-decoration: underline;
+}
+
+.carfeatures h1:hover {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.aboutcar {
+  margin-bottom: 20px;
+}
+
+.aboutcar h2 {
+  font-size: large;
+  color: #666;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+}
+
+.aboutcar span:hover {
+  color: #007bff;
+  cursor: pointer;
+}
+.aboutcar span {
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.typesofcar {
+  font-weight: normal;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.typesofcar:hover {
+  border-color: #bdbdbd;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  .rates {
+    color: #007bff;
+  }
+}
+
+.typesofcar span {
+  font-weight: bold;
+  color: #333;
+}
+.feature-btn {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 1em;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+.feature-btn:hover {
+  background-color: #0056b3;
+}
+
+.feature-btn1 {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 1em;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+.feature-btn1:hover {
+  background-color: grey;
+}
+
+.self-driving {
+  font-family: sans-serif;
+  font-size: x-large;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.car-color {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.car-color h1 {
+  font-size: large;
+  color: #555;
+  text-align: center;
+  transition: color 0.3s ease;
+  font-weight: 600;
+}
+
+.car-color span {
+  display: block;
+  font-size: medium;
+  color: #888;
+  text-decoration: underline;
+}
+.grey:hover {
+  color: black;
+  cursor: pointer;
+}
+.blue:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.red:hover {
+  color: red;
+  cursor: pointer;
+}
+
+/* Container */
+.box {
+  width: 100%;
+  height: 740px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* Order Now Details */
+.order-now {
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  max-width: 500px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.order-now:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.self-driving {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.delivery {
+  margin-bottom: 20px;
+}
+
+.delivery h2 {
+  font-size: 1.2em;
+  color: #666;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+}
+
+.delivery span {
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.delivery span:hover {
+  color: #0056b3;
+}
+
+.add-btn {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 1em;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.add-btn:hover {
+  background-color: red;
 }

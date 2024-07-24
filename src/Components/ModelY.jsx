@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function ModelY() {
   return (
@@ -19,9 +20,10 @@ function ModelY() {
         </div>
 
         <div className="btn-box items-center justify-center flex flex-col sm:flex-row gap-4 sm:gap-8">
-          <button className="btn font-medium hover:bg-gray-200 hover:text-black w-full sm:w-[250px] p-2 rounded-xl bg-white">
-            Order Now
-          </button>
+        <NavLink to="/ModelY" className="btn font-medium hover:bg-gray-200 hover:text-black w-[250px] p-2 rounded-xl bg-white text-center">
+         Order Now
+         
+          </NavLink>
           <button className="btn font-medium hover:bg-gray-600 w-full sm:w-[250px] p-2 rounded-xl bg-gray-800 text-white">
             Demo Drive
           </button>
