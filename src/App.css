@@ -16,40 +16,6 @@
   font-size: large;
 }
 
-/* Components__/ModelY */
-.ModelY {
-  background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-Global.png");
-}
-
-/* Components__/ModelX */
-.ModelX {
-  background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-X-Desktop-v2.jpg");
-}
-
-/* Components__/ModelY */
-
-.ModelS {
-  background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Desktop-v2.jpg");
-}
-
-/* Components__/CyberTruck */
-
-.CyberTruck {
-  background-image: url("https://digitalassets.tesla.com/discovery-tesla-com/image/upload/f_auto,q_auto/Homepage-Cybertruck-Desktop.jpg");
-}
-
-/* Components__/Solarroof */
-
-.solarroof {
-  background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/h_1800,w_2880,c_fit,f_auto,q_auto:best/Homepage-SolarRoof-Desktop-Global");
-}
-
-/* Components__/SolarWall */
-
-.Solarwall {
-  background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Powerwall-01-Desktop.jpg");
-}
-
 /* Routes/OrderLayouts */
 
 .Cardetails {
@@ -312,3 +278,93 @@
   color: blue;
   cursor: pointer;
 }
+
+/* CyberTruck.Routes */
+ 
+
+.CyberRoute{
+  
+  background-color: #333;
+  
+}
+
+
+.truckheading{
+  display: flex;
+  font-size: xxx-large;
+  opacity: 0.5;
+  font-family: sans-serif;
+}
+ .truckdetails {
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+
+} 
+
+
+.orderbtn2{
+  width: 100%;
+  justify-content: space-around;
+  font-size: x-large;
+  opacity: 0.5;
+  font-weight: lighter;
+  margin-bottom: 20px;
+
+}
+.purchasebtn{
+  border: 2px solid;
+  padding: 5px;
+  width: 40%;
+}
+.problembtn{
+  border: 2px solid;
+  padding: 5px;
+  width: 40%;
+}
+.purchasebtn:hover {
+  background-color: black;
+  text-decoration:underline;
+}
+
+.problembtn:hover {
+  background-color: black;
+  text-decoration:underline;
+
+}
+
+/* Truck features container */
+.truckfeatures {
+  flex-direction: column;
+  background-color: black;
+  border: 1px solid #ddd;
+  border-radius: 0px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-weight:700;
+}
+
+.truckfeatures h1,
+.truckfeatures h3 {
+  margin: 10px 0;
+}
+
+/* Truck features - first heading */
+.truckfeatures h1 {
+  font-size: x-large;
+  color: #333;
+}
+.truckfeatures h2 {
+  font-size: larger;
+  color: #666;
+}
+
+/* Truck features - secondary heading */
+.truckfeatures h3 {
+  font-size: medium;
+  color: #666;
+}
+

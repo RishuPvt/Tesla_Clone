@@ -1,29 +1,14 @@
+import "./App.css";
 
-import './App.css'
-import Header from './Components/Header';
-import ModelX from './Components/ModelX';
-import ModelY from './Components/ModelY';
-import ModelS from './Components/ModelS';
-import CyberTruck from"./Components/CyberTruck";
-import Solarwall from "./Components/SolarWall"
-import Solarroof from "./Components/Solarroof"
+import Homepage from "./Components/Homepage";
 function App() {
-    return (
-        <>
-        <div>
-          <Header />
-          <ModelY/>
-          <ModelX/>
-          <ModelS/>
-          <CyberTruck/>
-          <Solarroof/>
-          <Solarwall/>
-
-        </div>
-         </>
-    )
-   
-
+  return (
+    <>
+      <div>
+        <Homepage />
+      </div>
+    </>
+  );
 }
 
-export default App
+export default App;

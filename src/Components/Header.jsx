@@ -55,15 +55,17 @@ function Header() {
           $7,500 Federal Tax Credit Available<sup>1</sup>
         </h1>
         <h1 className="model3subheading items-center justify-center flex underline text-gray-600 ">
-          From $29,990 After Est. Savings2<sup>1</sup>
+          From $29,990 After Est. Savings<sup>2</sup>
         </h1>
 
         <div className="btn-box items-center justify-center flex mt-[400px] gap-8">
-         <NavLink to="/Model3" className="btn font-medium hover:bg-gray-200 hover:text-black w-[250px] p-2 rounded-xl bg-white text-center">
-         Order Now
-         
+          <NavLink
+            to="/Model3"
+            className="btn font-medium hover:bg-gray-200 hover:text-black w-[250px] p-2 rounded-xl bg-white text-center"
+          >
+            Order Now
           </NavLink>
-          
+
           <button className="btn font-medium hover:bg-gray-600  w-[250px] p-2 rounded-xl bg-gray-800 text-white">
             Demo Drive
           </button>

@@ -6,6 +6,7 @@ import ModelY from './Routes/ModelY.Route';
 import ModelX from './Routes/ModelX.Route';
 import ModelS from './Routes/ModelS.Route';
 import CyberRoute from './Routes/CyberTruck.Route';
+import SolarRoof from './Routes/SolarRoof.Route';
 const Load = () => (
   <Router>
     <Routes>
@@ -15,6 +16,8 @@ const Load = () => (
       <Route path="/ModelX" element={<ModelX />} />
       <Route path="/ModelS" element={<ModelS />} />
       <Route path="/CyberTruck" element={<CyberRoute />} />
+      <Route path="/Solarroof" element={<SolarRoof />} />
+
 
     </Routes>
   </Router>

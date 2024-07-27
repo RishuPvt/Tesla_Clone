@@ -8,6 +8,67 @@ import bluemodelx from "../assets/bluemodelx.png";
 import redmodel3 from "../assets/redmodel3.png";
 import "../App.css";
 function ModelY() {
+  const list = [
+    {
+      imageUrl: ModelYgray,
+      Title: "Model Y",
+      Feature1: "320mL",
+      Subfeature1: "Range (EPA est.)",
+
+      Feature2: "135mph",
+      Subfeature2: "Top Speed",
+
+      Feature3: "6.5sec",
+      Subfeature3: "0-60 mph",
+      About:
+        " Include $7,500 Federal Tax Credit and est. 5-year gas savings of $5,000.",
+      Span: "Customize",
+
+      Types1: "Long Range All-Wheel Drive ",
+      Rates1: "$31,490",
+      Types2: "Rear-Wheel Drive",
+      Rates2: "$34,290",
+      Types3: "Long Range Rear-Wheel Drive",
+      Rates3: "$39,590",
+      Types4: "   Dual Motor All-Wheel Drive",
+      Rates4: "$37,950",
+      Button: "Features details",
+    },
+    {
+      Add: "True",
+      imageUrl: bluemodelx,
+      Title: "Full Self-Driving Capability",
+      Sup: "$8,000",
+      Feature1: " Stealth Grey",
+      Subfeature1: "Included",
+      Feature2: " Deep Blue Metallic",
+      Subfeature2: "$1,000",
+
+      Feature3: " Ultra Red",
+      Subfeature3: " $2,000",
+      About:
+        " Receive a 30 day trial of Full Self-Driving Capability with a newvehicle purchase.",
+      Span: "",
+      Types: " Navigate on Autopilot",
+      Rates: "",
+      Types1: " Auto Lane Change",
+      Rates1: "",
+      Types2: "Autopark",
+      Rates2: "",
+      Types3: " Smart Summon",
+      Rates3: "",
+      Types4: "  Traffic Light and Stop Sign Control",
+      Rates4: "",
+      Types5: " Autosteer on city streets",
+      Rates5: "",
+
+      Foottitle:
+        "The currently enabled features require active driver supervisionand do not make the vehicle autonomous.",
+      Button: "Features details",
+      Button2: "Add",
+    },
+  ];
+
   return (
     <>
       <div className="head flex justify-center w-full">
@@ -22,107 +83,66 @@ function ModelY() {
         </div>
       </div>
 
-      <div className="w-full h-[740px] flex items-center justify-evenly">
-        <div className="ordernow bg-cover w-[60%] ">
-          <img src={ModelYgray} alt="ModelY" />
-        </div>
-        <div className="Cardetails">
-          <h1 className="modelname">Model Y</h1>
-          <div className="carfeatures">
-            <h1>
-              {" "}
-              320mL
-              <span>Range (EPA est.)</span>
-            </h1>
-            <h1>
-              135mph
-              <span>Top Speed</span>
-            </h1>
-            <h1>
-              6.5sec<span>0-60 mph</span>
-            </h1>
+      {list.map((item, index) => {
+        return (
+          <div
+            key={index}
+            className="w-full h-[740px] flex items-center justify-evenly"
+          >
+            <div className="ordernow bg-cover w-[60%] ">
+              <img src={item.imageUrl} alt="ModelY" />
+            </div>
+            <div className="Cardetails">
+              <h1 className="modelname">
+                {item.Title} <sup>{item.Sup}</sup>
+              </h1>
+              <div className="carfeatures">
+                <h1>
+                  {" "}
+                  {item.Feature1}
+                  <span>{item.Subfeature1}</span>
+                </h1>
+                <h1>
+                  {item.Feature2}
+                  <span>{item.Subfeature2}</span>
+                </h1>
+                <h1>
+                  {item.Feature3}
+                  <span>{item.Subfeature3}</span>
+                </h1>
+              </div>
+              <div className="aboutcar">
+                <h2>
+                  {item.About} <span>{item.Span}</span>
+                </h2>
+                <h2 className="typesofcar ">
+                  {item.Types} <span className="rates">{item.Rates}</span>
+                </h2>
+                <h2 className="typesofcar ">
+                  {item.Types1} <span className="rates">{item.Rates1}</span>
+                </h2>
+                <h2 className="typesofcar">
+                  {item.Types2} <span className="rates">{item.Rates2}</span>
+                </h2>
+                <h2 className="typesofcar">
+                  {item.Types3} <span className="rates">{item.Rates3}</span>
+                </h2>
+                <h2 className="typesofcar">
+                  {item.Types4} <span className="rates">{item.Rates4}</span>
+                </h2>
+                <h2 className="typesofcar ">
+                  {item.Types5} <span className="rates">{item.Rates5}</span>
+                </h2>
+                <h2>{item.Foottitle}</h2>
+              </div>
+              {item.Add === "True" && (
+                <button className="feature-btn">{item.Button2}</button>
+              )}
+              <button className="feature-btn1">{item.Button}</button>
+            </div>
           </div>
-          <div className="aboutcar">
-            <h2>
-              Include $7,500 Federal Tax Credit and est. 5-year gas savings of
-              $5,000. <span>Customize</span>
-            </h2>
-            <h2 className="typesofcar ">
-              Long Range All-Wheel Drive <span className="rates">$31,490</span>
-            </h2>
-            <h2 className="typesofcar">
-              Rear-Wheel Drive <span className="rates">$34,290</span>
-            </h2>
-            <h2 className="typesofcar">
-              Long Range Rear-Wheel Drive <span className="rates">$39,590</span>
-            </h2>
-            <h2 className="typesofcar">
-              Dual Motor All-Wheel Drive <span className="rates">$37,950</span>
-            </h2>
-          </div>
-          <button className="feature-btn1">Features details</button>
-        </div>
-      </div>
-
-      <div className="w-full h-[740px] flex items-center justify-evenly">
-        <div className="ordernow bg-cover w-[60%] ">
-          <img src={bluemodelx} alt="ModelX" />
-        </div>
-        <div className="Cardetails">
-          <h1 className="self-driving">
-            Full Self-Driving Capability <sup>$8,000</sup>
-          </h1>
-          <div className="car-color">
-            <h1 className="grey">
-              {" "}
-              Stealth Grey
-              <span>Included</span>
-            </h1>
-            <h1 className="blue">
-              Deep Blue Metallic
-              <span> $1,000</span>
-            </h1>
-            <h1 className="red">
-              Ultra Red
-              <span> $2,000</span>
-            </h1>
-          </div>
-          <div className="aboutcar">
-            <h2>
-            Receive a 30 day trial of Full Self-Driving Capability with a new vehicle purchase.
-            </h2>
-            <h2 className="typesofcar ">
-              Navigate on Autopilot
-              <span className="rates">$34,990</span>
-            </h2>
-            <h2 className="typesofcar">
-              Auto Lane Change <span className="rates">$33,990</span>
-            </h2>
-            <h2 className="typesofcar">
-              Autopark <span className="rates">$29,990</span>
-            </h2>
-            <h2 className="typesofcar">
-              Smart Summon <span className="rates">$42,990</span>
-            </h2>
-            <h2 className="typesofcar">
-              Autosteer on city streets
-              <span className="rates">$42,990</span>
-            </h2>
-            <h2 className="typesofcar">
-              Traffic Light and Stop Sign Control
-              <span className="rates">$42,990</span>
-            </h2>
-            <h2>
-              {" "}
-              The currently enabled features require active driver supervision
-              and do not make the vehicle autonomous.
-            </h2>
-          </div>
-          <button className="feature-btn">Add</button>
-
-          <button className="feature-btn">Features details</button>
-        </div>
-      </div>
+        );
+      })}
 
       <div className="box w-full h-[740px] flex items-center justify-evenly">
         <div className="ordernow bg-cover w-[60%] ">
