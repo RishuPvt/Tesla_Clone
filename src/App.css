@@ -283,7 +283,6 @@
  
 
 .CyberRoute{
-  
   background-color: #333;
   
 }
@@ -297,8 +296,6 @@
 }
  .truckdetails {
   flex-direction: column;
-  width: 80%;
-  margin: 0 auto;
   padding: 20px;
 
 } 
@@ -307,7 +304,7 @@
 .orderbtn2{
   width: 100%;
   justify-content: space-around;
-  font-size: x-large;
+  font-size: medium;
   opacity: 0.5;
   font-weight: lighter;
   margin-bottom: 20px;
@@ -315,12 +312,12 @@
 }
 .purchasebtn{
   border: 2px solid;
-  padding: 5px;
+  padding: 12px;
   width: 40%;
 }
 .problembtn{
   border: 2px solid;
-  padding: 5px;
+  padding: 12px;
   width: 40%;
 }
 .purchasebtn:hover {
@@ -366,5 +363,30 @@
 .truckfeatures h3 {
   font-size: medium;
   color: #666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* //cybertuckroutes */
+.Truckorder-now {
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
