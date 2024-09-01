@@ -10,8 +10,8 @@ function Homepage() {
       Saving: "After $14,000 Est. Savings",
       sup: "4",
       path: "/ModelX",
-      Button:"Order Now",
-      Button2:"Demo Drive",
+      Button: "Order Now",
+      Button2: "Demo Drive",
       imageUrl:
         "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-X-Desktop-v2.jpg",
     },
@@ -21,8 +21,8 @@ function Homepage() {
       Rate: "From $31,490",
       sup: "4",
       path: "/ModelY",
-      Button:"Order Now",
-      Button2:"Demo Drive",
+      Button: "Order Now",
+      Button2: "Demo Drive",
       imageUrl:
         "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-Global.png",
     },
@@ -31,8 +31,8 @@ function Homepage() {
       Saving: "After $6,500 Est. Savings",
       Rate: "From $68,4905",
       path: "/ModelS",
-      Button:"Order Now",
-      Button2:"Demo Drive",
+      Button: "Order Now",
+      Button2: "Demo Drive",
       imageUrl:
         "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Desktop-v2.jpg",
       Required: "true",
@@ -43,16 +43,16 @@ function Homepage() {
         "https://digitalassets.tesla.com/discovery-tesla-com/image/upload/f_auto,q_auto/Homepage-Cybertruck-Desktop.jpg",
       Class: "true",
       logo: cybertrucklogo,
-      Button:"Order Now",
-      Button2:"Demo Drive",
+      Button: "Order Now",
+      Button2: "Demo Drive",
     },
     {
       Title: "Solar Roof",
       Saving: " ",
       Rate: "Produce Clean Energy From Your Roof",
       path: "/Solarroof",
-      Button:"Order Now",
-      Button2:"Learn More",
+      Button: "Order Now",
+      Button2: "Learn More",
       imageUrl:
         "https://digitalassets.tesla.com/tesla-contents/image/upload/h_1800,w_2880,c_fit,f_auto,q_auto:best/Homepage-SolarRoof-Desktop-Global",
     },
@@ -61,8 +61,8 @@ function Homepage() {
       Saving: " ",
       Rate: "Produce Clean Energy From Your Wall",
       path: "/Solarroof",
-      Button:"Order Now",
-      Button2:"Learn More",
+      Button: "Order Now",
+      Button2: "Learn More",
       imageUrl:
         "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Powerwall-01-Desktop.jpg",
     },
@@ -70,8 +70,8 @@ function Homepage() {
       Title: "Accessories",
       Saving: " ",
       path: "/Solarroof",
-      Button:"Shop",
-      Button2:"Learn More",
+      Button: "Shop",
+      Button2: "Learn More",
       imageUrl:
         "https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Accessories-Desktop-NA-APAC.jpg",
     },
@@ -141,8 +141,7 @@ function Homepage() {
                     : "btn font-medium hover:bg-gray-600 w-full sm:w-[250px] p-2 rounded-xl bg-gray-800 text-white"
                 }`}
               >
-                               {item.Button2}
-
+                {item.Button2}
               </button>
             </div>
           </div>

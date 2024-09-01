@@ -8,7 +8,7 @@ function CyberRoute() {
     const delta = Math.sign(event.deltaY) * 400;
     container.scrollTo({
       top: container.scrollTop + delta,
-      behavior: 'smooth',
+      behavior: "smooth",
     });
     event.preventDefault();
   };
@@ -64,15 +64,15 @@ function CyberRoute() {
       </div>
       <div
         className="w-[35%] h-[742px] overflow-hidden relative"
-        onWheel={scrollSmoothly} ref={containerRef}
+        onWheel={scrollSmoothly}
+        ref={containerRef}
       >
-        <div
-          
-          className="truckdetails flex flex-col h-full w-full p-4"
-        >
+        <div className="truckdetails flex flex-col h-full w-full p-4">
           <h1 className="truckheading">Reserve Now</h1>
           <div className="orderbtn2 flex space-x-4">
-            <button className="purchasebtn text-white rounded">PURCHASE PRICE</button>
+            <button className="purchasebtn text-white rounded">
+              PURCHASE PRICE
+            </button>
             <button className="problembtn text-white rounded">SAVINGS</button>
           </div>
           {list.map((item, index) => (
@@ -94,11 +94,11 @@ function CyberRoute() {
             <div className="delivery">
               <h2>Est. Delivery: Jul – Aug 2024</h2>
               <h2>
-                Your design qualifies for a $7,500 federal tax credit for eligible
-                buyers. <span>See Details</span>
+                Your design qualifies for a $7,500 federal tax credit for
+                eligible buyers. <span>See Details</span>
               </h2>
             </div>
-            <button className="add-btn">Order</button>
+            <button className="add-btn2">Order</button>
           </div>
         </div>
       </div>
@@ -107,3 +107,4 @@ function CyberRoute() {
 }
 
 export default CyberRoute;
+             

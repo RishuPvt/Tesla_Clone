@@ -264,7 +264,6 @@
   background-color: red;
 }
 
-
 .white:hover {
   color: pink;
   cursor: pointer;
@@ -280,55 +279,48 @@
 }
 
 /* CyberTruck.Routes */
- 
 
-.CyberRoute{
+.CyberRoute {
   background-color: #333;
-  
 }
 
-
-.truckheading{
+.truckheading {
   display: flex;
   font-size: xxx-large;
   opacity: 0.5;
   font-family: sans-serif;
 }
- .truckdetails {
+.truckdetails {
   flex-direction: column;
   padding: 20px;
+}
 
-} 
-
-
-.orderbtn2{
+.orderbtn2 {
   width: 100%;
   justify-content: space-around;
   font-size: medium;
   opacity: 0.5;
   font-weight: lighter;
   margin-bottom: 20px;
-
 }
-.purchasebtn{
+.purchasebtn {
   border: 2px solid;
   padding: 12px;
   width: 40%;
 }
-.problembtn{
+.problembtn {
   border: 2px solid;
   padding: 12px;
   width: 40%;
 }
 .purchasebtn:hover {
   background-color: black;
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
 .problembtn:hover {
   background-color: black;
-  text-decoration:underline;
-
+  text-decoration: underline;
 }
 
 /* Truck features container */
@@ -341,7 +333,7 @@
   margin-bottom: 20px;
   width: 100%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  font-weight:700;
+  font-weight: 700;
 }
 
 .truckfeatures h1,
@@ -365,23 +357,6 @@
   color: #666;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* //cybertuckroutes */
 .Truckorder-now {
   padding: 20px;
@@ -389,4 +364,21 @@
   max-width: 500px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.add-btn2 {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 1em;
+  font-weight: bold;
+  color: #fff;
+  border: 2px solid;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
 
+.add-btn2:hover {
+  background-color: black;
+  text-decoration: underline;
+}
