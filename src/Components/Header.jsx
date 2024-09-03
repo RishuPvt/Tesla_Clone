@@ -32,7 +32,6 @@ function Header() {
     { name: "Vehicles" },
     { name: "Charging" },
     { name: "Energy" },
-    { name: "Discover" },
     { name: "Shop" },
   ];
 

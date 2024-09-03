@@ -17,6 +17,8 @@ const Load = () => (
       <Route path="/ModelS" element={<ModelS />} />
       <Route path="/CyberTruck" element={<CyberRoute />} />
       <Route path="/Solarroof" element={<SolarRoof />} />
+      
+
     </Routes>
   </Router>
 );
